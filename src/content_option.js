@@ -1,157 +1,117 @@
-const logotext = "JOHN";
+import coverImage from "./assets/images/IMG_20210621_071534.jpg"
+const logotext = "USAMAAKBAR";
 const meta = {
-    title: "John Doe",
-    description: "I’m John Doe data scientist _ Full stack devloper,currently working in Berlin",
+    title: "Usama Akbar",
+    description: "I’m Usama Akbar, a professional photographer, capturing moments that last forever.",
 };
 
 const introdata = {
-    title: "I’m John Doe",
+    title: "I’m Usama Akbar",
     animated: {
-        first: "I love coding",
-        second: "I code cool websites",
-        third: "I develop mobile apps",
+        first: "Professional Photographer",
+        second: "I capture beautiful moments",
+        third: "I create timeless memories",
     },
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum",
-    your_img_url: "https://images.unsplash.com/photo-1514790193030-c89d266d5a9d",
+    description: "As a photographer, I strive to capture the essence of each moment, creating visual stories that resonate for a lifetime.",
+    your_img_url: coverImage,  // Replace this with Usama's actual image link
 };
 
 const dataabout = {
-    title: "abit about my self",
-    aboutme: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent quis dolor id ligula semper elementum feugiat pretium nulla. Nunc non commodo dolor. Nunc mollis dignissim facilisis. Morbi ut magna ultricies.",
+    title: "A bit about myself",
+    aboutme: "I am Usama Akbar, a passionate photographer with an eye for detail. I specialize in portrait, landscape, and event photography, bringing out the beauty in every moment. With years of experience behind the lens, I aim to deliver high-quality images that tell a story.",
 };
-const worktimeline = [{
-        jobtitle: "Designer of week",
-        where: "YAdfi",
-        date: "2020",
+
+const worktimeline = [
+    {
+        jobtitle: "Freelance Photographer",
+        where: "Various Clients",
+        date: "2022-Present",
     },
     {
-        jobtitle: "Designer of week",
-        where: "Jamalya",
-        date: "2019",
+        jobtitle: "Lead Photographer",
+        where: "AK Photography",
+        date: "2020-2022",
     },
     {
-        jobtitle: "Designer of week",
-        where: "ALquds",
-        date: "2019",
+        jobtitle: "Assistant Photographer",
+        where: "Studio 101",
+        date: "2018-2020",
     },
 ];
 
-const skills = [{
-        name: "Python",
+const skills = [
+    {
+        name: "Photography",
+        value: 95,
+    },
+    {
+        name: "Photo Editing",
         value: 90,
     },
     {
-        name: "Djano",
+        name: "Lighting Techniques",
         value: 85,
     },
     {
-        name: "Javascript",
-        value: 80,
+        name: "Adobe Photoshop",
+        value: 90,
     },
     {
-        name: "React",
-        value: 60,
-    },
-    {
-        name: "Jquery",
+        name: "Adobe Lightroom",
         value: 85,
     },
 ];
 
-const services = [{
-        title: "UI & UX Design",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
+const services = [
+    {
+        title: "Portrait Photography",
+        description: "Capturing the essence of individuals with professional portrait photography.",
     },
     {
-        title: "Mobile Apps",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
+        title: "Event Photography",
+        description: "Documenting special occasions with a creative and professional touch.",
     },
     {
-        title: "Wordpress Design",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
+        title: "Photo Editing",
+        description: "Enhancing and perfecting photos using advanced editing techniques.",
     },
 ];
 
-const dataportfolio = [{
-        img: "https://picsum.photos/400/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
+const dataportfolio = [
+    {
+        img: "https://picsum.photos/400/?grayscale",  // Replace with actual portfolio images
+        description: "A serene portrait capturing raw emotion.",
         link: "#",
     },
     {
-        img: "https://picsum.photos/400/800/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
+        img: "https://picsum.photos/400/800/?grayscale",  // Replace with actual portfolio images
+        description: "A beautiful landscape shot at sunset.",
         link: "#",
     },
     {
-        img: "https://picsum.photos/400/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
+        img: "https://picsum.photos/400/?grayscale",  // Replace with actual portfolio images
+        description: "Wedding moments captured in the perfect frame.",
         link: "#",
     },
-    {
-        img: "https://picsum.photos/400/600/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/300/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/700/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-
-    {
-        img: "https://picsum.photos/400/600/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/300/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/550/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/700/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
+    // Add more images as necessary
 ];
 
 const contactConfig = {
-    YOUR_EMAIL: "name@domain.com",
-    YOUR_FONE: "(555)123-4567",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vehicula eu nunc et sollicitudin. Cras pulvinar, nisi at imperdiet pharetra. ",
-    // creat an emailjs.com account 
-    // check out this tutorial https://www.emailjs.com/docs/examples/reactjs/
-    YOUR_SERVICE_ID: "service_id",
-    YOUR_TEMPLATE_ID: "template_id",
-    YOUR_USER_ID: "user_id",
+    YOUR_EMAIL: "us346466@gmail.com",
+    YOUR_FONE: "+923340317385",
+    description: "If you'd like to book a session or inquire about my services, feel free to reach out through email or phone. Let's capture your best moments together.",
+    YOUR_SERVICE_ID: "service_id",  // Configure with actual EmailJS details
+    YOUR_TEMPLATE_ID: "template_id",  // Configure with actual EmailJS details
+    YOUR_USER_ID: "user_id",  // Configure with actual EmailJS details
 };
 
 const socialprofils = {
-    github: "https://github.com",
-    facebook: "https://facebook.com",
-    linkedin: "https://linkedin.com",
-    twitter: "https://twitter.com",
+    Instagram: "https://github.com/usamaakbar",
+    facebook: "https://facebook.com/usamaakbarphotography",
+    linkedin: "https://linkedin.com/in/usamaakbar",
+    twitter: "https://twitter.com/usamaakbarphoto",
 };
+
 export {
     meta,
     dataabout,
